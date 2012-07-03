@@ -6,13 +6,13 @@ Gem::Specification.new do |s|
   s.authors = ["Alejandro Andres"]
   s.date = "2012-07-03"
   s.description = "A very basic gem to go and retry code that may raise exceptions"
+  s.summary = s.description
   s.email = "fuzzy.alej@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
   ]
   s.files = [
-    ".document",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
